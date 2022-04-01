@@ -1,0 +1,24 @@
+/**
+https://stackoverflow.com/questions/18492078/fullcalendar-js-adjust-header-for-mobile
+*/
+
+@media (max-width: 767.98px) {
+  .fc .fc-toolbar.fc-header-toolbar {
+    display: block;
+    text-align: center;
+  }
+
+  .fc-header-toolbar .fc-toolbar-chunk {
+    display: block;
+  }
+}
+
+/**
+.fc-event-main {
+  mix-blend-mode: exclusion;
+}
+*/
+.fc-event-main {
+  font-weight: bolder;
+  color: white !important;
+}
